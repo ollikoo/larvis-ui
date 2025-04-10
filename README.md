@@ -1,36 +1,37 @@
 # LARVIS UI
 
 LARVIS UI is a React/TypeScript frontend application built with Vite, Ant Design, and TanStack Router. It provides a user-friendly interface for managing data, featuring a login system, dashboard, and user profiles.
+<br/>
+<br/>
 
 ## Prerequisites for running the App
 
+- Latest version of **Docker Desktop**
 - **Node.js**: Version 18 or higher
 - **npm**: Version 8 or higher
-- **Backend Server**: The Larvis API server must be running (assumed to be at `http://localhost:8000`).
+- **Backend Server**: The Larvis API server must be running (assumed to be at `http://localhost:8080`).
 
 ### Installation
 
-1. **Run application**:
-
-#### Build the Docker image for Larvis API:
+1. **Build and run the Docker Image for Larvis API**:
 
 ```bash
 docker build -t larvis-service .
 ```
 
-2. **Install dependencies**:
-
-```bash
-npm i
-```
-
-#### Run the image:
+1. **Run the image:**
 
 ```bash
 docker run -p 8080:8080 larvis-service
 ```
 
-#### Run the app in dev mode:
+3. **Install dependencies:**
+
+```bash
+npm i
+```
+
+3. **Run the app in dev mode:**
 
 ```bash
 npm run dev
@@ -38,7 +39,7 @@ npm run dev
 
 The app will be available at http://localhost:5173 (The Larvis API is assumed to be at `http://localhost:8080`)
 
-#### Serve the production build locally
+3. **Serve the production build locally:**
 
 ```bash
 npm run build
@@ -49,6 +50,8 @@ npm run serve
 ```
 
 The app will be available at http://localhost:8081 (The Larvis API is assumed to be at `http://localhost:8080`)
+<br />
+<br />
 
 ## Improvements
 
