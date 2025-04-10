@@ -121,11 +121,11 @@ const Dashboard = () => {
           style={{ width: 120 }}
           onChange={(value) => setTimeframe(value)}
           options={[
-            { value: "all_time", label: "All time" },
             { value: "last_24h", label: "Last 24 hours" },
             { value: "last_7d", label: "Last 7 days" },
             { value: "last_30d", label: "Last 30 days" },
-            { value: "custom", label: "Custom", disabled: true },
+            { value: "all_time", label: "All time", disabled: true }, // TODO: Hidden for now, the API only returns the last 30 days of data currently
+            { value: "custom", label: "Custom", disabled: true }, // TODO: Implement custom date range
           ]}
         />
       </Flex>
