@@ -1,0 +1,4 @@
+/.gitignore
+/.prettierignore
+/public/*
+/src/routeTree.gen.ts
