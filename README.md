@@ -78,19 +78,19 @@ The backend does seem to send the same token for all users, which indicates a la
   - Add support for refresh tokens.
   - Use HttpOnly, Secure, and SameSite cookies to store the token securely, preventing XSS attacks (better than sessionStorage used currently in the frontend).
 
-#### Error Handling
+### Error Handling
 
 - Return more specific error messages (e.g., "Invalid credentials" for 401 errors) to improve user feedback.
 
-#### Pagination
+### Pagination
 
 - Add pagination and timeframe filter support for the `/acquisitions` endpoint to handle large datasets efficiently.
 
-#### Validation
+### Validation
 
 - Implement stricter input validation (e.g., `username` and `password` length) and return detailed validation errors.
 
-#### Documentation
+### Documentation
 
 - Provide an OpenAPI/Swagger specification for the API to improve frontend-backend integration and testing.
 
