@@ -19,7 +19,7 @@ LARVIS UI is a React/TypeScript frontend application built with Vite, Ant Design
 docker build -t larvis-service .
 ```
 
-1. **Run the image:**
+2. **Run the image:**
 
 ```bash
 docker run -p 8080:8080 larvis-service
@@ -31,7 +31,7 @@ docker run -p 8080:8080 larvis-service
 npm i
 ```
 
-3. **Run the app in dev mode:**
+4. **Run the app in dev mode:**
 
 ```bash
 npm run dev
@@ -39,7 +39,7 @@ npm run dev
 
 The app will be available at http://localhost:5173 (The Larvis API is assumed to be at `http://localhost:8080`)
 
-3. **Serve the production build locally:**
+5. **Serve the production build locally:**
 
 ```bash
 npm run build
